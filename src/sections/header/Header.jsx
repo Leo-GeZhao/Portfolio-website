@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header__profile">
           <img src={HeaderImg} alt="Header Portrait" />
         </div>
-        <h2>Leo Zhao</h2>
+        <h2>Leo Zhao <span className='header__emoji'>👋</span></h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor id, quasi, architecto a commodi aut quis sit laborum ratione illo ipsa accusantium asperiores iste aliquid non quam ea adipisci rerum?</p>
         <div className='header__cta'>
           <a href="#contact" className='btn'>Let's Talk</a>
