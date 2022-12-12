@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import {AiOutlineInstagram} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiOutlineGithub} from 'react-icons/ai'
 
@@ -18,9 +18,10 @@ const Footer = () => {
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div className="footer__socials">
-      <a href="http://instagram.com"><AiOutlineInstagram/></a>
-      <a href="http://twitter.com"><AiOutlineTwitter/></a>
-      <a href="http://github.com"><AiOutlineGithub/></a>
+      <a href="https://www.linkedin.com/in/leogezhao/" target="_blank"
+            rel="noopener noreferrer"><AiFillLinkedin/></a>
+      <a href="https://github.com/Leo-GeZhao" target="_blank"
+            rel="noopener noreferrer"><AiOutlineGithub/></a>
     </div>
     </footer>
   )
