@@ -1,0 +1,42 @@
+.skills__container{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+}
+
+.skills__container > div{
+    background-color: #FBFBFB;
+    padding: 2.4rem 5rem;
+    border-radius: var(--border-radius-1);
+    border: 1px solid transparent;
+}
+
+.skills__container > div:hover{
+    background: transparent;
+    border-color: #5cbdb9;
+    transition: var(--transition);
+    transform: translateY(-0.5rem);
+}
+
+.skill__container > h3{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skills__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.skill__detail{
+    display: flex;
+    gap:1rem;
+}
+
+.skill__detail-icon{
+    font-size: 1.3rem;
+    color: #5cbdb9;
+}
+

@@ -1,0 +1,44 @@
+nav{
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 0 1rem 1.5rem lightgrey;
+    transition: var(--transition);
+    background-color: #5cbdb9;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav__menu {
+    display: flex;
+    gap:3.5rem;
+}
+
+.nav__menu a:hover{
+    color: white;
+}
+
+
+
+#theme__icon{
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
