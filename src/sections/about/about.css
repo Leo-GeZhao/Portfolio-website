@@ -12,6 +12,10 @@
     transition: var(--transition);
 }
 
+.about__portrait img{
+    border-radius: 0.5rem;
+}
+
 
 .about__portrait:hover{
     border-width: 0;

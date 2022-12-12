@@ -6,7 +6,7 @@
 }
 
 .skills__container > div{
-    background-color: #FBFBFB;
+    /* background-color: #FBFBFB; */
     padding: 2.4rem 5rem;
     border-radius: var(--border-radius-1);
     border: 1px solid transparent;
