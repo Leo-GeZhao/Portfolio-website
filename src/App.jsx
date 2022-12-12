@@ -5,11 +5,12 @@ import Skills from './sections/skills/Skills'
 import Portfolio from './sections/portfolio/Portfolio'
 import Contact from './sections/contact/Contact'
 import Footer from './sections/footer/Footer'
-
+import Scrollup from './sections/scrollup/Scrollup'
 
 
 const App = () => {
   return (
+  <>
     <main>
         <Navbar/>
         <Header />
@@ -19,6 +20,8 @@ const App = () => {
         <Contact />
         <Footer />
     </main>
+    <Scrollup/>
+  </>
   )
 }
 

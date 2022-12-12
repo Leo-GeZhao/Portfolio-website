@@ -133,10 +133,6 @@ img {
     border-color: white;
 }
 
-/* .btn.primary{
-    background-color: lightblue;
-    columns: white;
-} */
 
 .btn.primary:hover{
     background-color: transparent;
