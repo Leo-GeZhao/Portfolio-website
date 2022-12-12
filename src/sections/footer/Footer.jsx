@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiOutlineGithub} from 'react-icons/ai'
 
 import './footer.css'

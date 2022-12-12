@@ -16,7 +16,6 @@
 }
 
 .contact__option{
-    /* background-color:#FBFBFB; */
     padding: 1.2rem;
     border-radius: var(--border-radius-2);
     text-align: center;
@@ -30,7 +29,7 @@
 }
 
 .contact__option-icon{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
 
@@ -49,7 +48,6 @@ form{
 input, textarea{
     width: 100%;
     padding: 1.5rem;
-    /* border-radius: var(--border-radius-3); */
     border-bottom: 1px solid #5cbdb9;
     resize: none;
 
