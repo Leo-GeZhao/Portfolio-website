@@ -1,8 +1,11 @@
+#contact h2 {
+    margin-top: 2rem;
+}
 .contact__container{
     margin-top: 2rem;
     width: 70%;
     display: grid;
-    grid-template-columns: 30% 58%;
+    grid-template-columns: 40% 48%;
     gap: 12%;
 }
 
@@ -15,7 +18,7 @@
 .contact__option{
     background-color:#FBFBFB;
     padding: 1.2rem;
-    border-radius: var(--border-radius-3);
+    border-radius: var(--border-radius-2);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);

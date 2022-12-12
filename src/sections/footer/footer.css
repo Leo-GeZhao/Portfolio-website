@@ -1,5 +1,5 @@
 footer{
-    background-color:#5cbdb9 ;
+    background-color:#f7f7f7 ;
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -13,9 +13,6 @@ footer{
     display: inline-block;
 }
 
-.footer__logo:hover{
-    color: white;
-}
 
 .permalinks{
     display: flex;
@@ -41,9 +38,11 @@ footer{
     transition: var(--transition);
 }
 .footer__socials a:hover {
-    color: #5cbdb9;
+    background-color: #5cbdb9;
+    color: white;
     transform: translateY(-0.5rem);
 }
 .permalinks a:hover{
-    color: white;
+    color: #5cbdb9;
+    font-weight: 450;
 }

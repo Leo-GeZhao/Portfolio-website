@@ -31,7 +31,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     font-size: 0.9rem;
 }
@@ -44,13 +44,13 @@ body {
 
 section{
     padding: 5rem 0;
-    background-color: #FBFBFB;
+    background-color: white;
     transition: var(--transition);
 }
 
-section:nth-child(even){
+/* section:nth-child(even){
     background-color: white;
-}
+} */
 
 section > h2 {
     text-align: center;
@@ -69,6 +69,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
+    font-weight: 600;
     color: black;
 }
 
