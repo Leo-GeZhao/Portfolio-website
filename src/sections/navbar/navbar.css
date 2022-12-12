@@ -7,9 +7,8 @@ nav{
     top: 0;
     left: 0;
     z-index: 9;
-    box-shadow: 0 1rem 1.5rem lightgrey;
-    transition: var(--transition);
-    background-color: #5cbdb9;
+    background-color: #f7f7f7;
+    box-shadow: 0 0.5rem 0.5rem #f7f7f7;
 }
 
 .nav__container {
@@ -19,10 +18,8 @@ nav{
 }
 
 .nav__logo {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 450;
 }
 
 .nav__menu {
@@ -31,14 +28,6 @@ nav{
 }
 
 .nav__menu a:hover{
-    color: white;
-}
-
-
-
-#theme__icon{
-    background: transparent;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
+    color: #5cbdb9;
+    font-weight: 450; 
 }

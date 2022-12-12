@@ -1,7 +1,7 @@
 .about__container{
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: 35% 53%;
+    grid-template-columns: 42% 50%;
     gap:12%;
 }
 
@@ -11,6 +11,7 @@
     border: 1rem solid white;
     transition: var(--transition);
 }
+
 
 .about__portrait:hover{
     border-width: 0;
