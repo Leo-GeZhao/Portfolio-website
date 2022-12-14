@@ -1,9 +1,8 @@
 header{
-    margin:8rem 0 2rem;
-    height: calc(100vh-5rem);
+    margin-top: 1rem;
+    height: 100vh;
     display: grid;
     place-items: center;
-    background-color: white;
     transition: var(--transition);
 }
 
@@ -30,7 +29,7 @@ header{
 .header__container p {
     width: 35rem;
     text-align: center;
-    margin: 0.6rem 0 2rem;
+    margin: 1.2rem 0 2rem;
 }
 
 .header__cta{
@@ -51,15 +50,14 @@ header{
 .header__socials a {
     width: 1.8rem;
     aspect-ratio: 1/1;
-    background-color: #fbe3e8;
-    color: black;
+    background-color: var(--pink);
     display: grid;
     place-items: center;
     border-radius: var(--border-radius-3);
 }
 
 .header__socials a:hover{
-    background-color: #5cbdb9 ;
+    background-color: var(--green) ;
     color: white;
     transform: translateX(-0.5rem);
 }

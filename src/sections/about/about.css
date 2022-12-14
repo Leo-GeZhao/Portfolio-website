@@ -1,63 +1,28 @@
 .about__container{
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: 42% 50%;
+    grid-template-columns: 42% 46%;
     gap:12%;
 }
 
 .about__portrait{
     height: fit-content;
     max-height: 40rem;
-    border: 1rem solid white;
+    border: 1rem solid transparent;
     transition: var(--transition);
 }
 
 .about__portrait img{
-    border-radius: 0.5rem;
+    border-radius: var(--border-radius-3);
 }
-
 
 .about__portrait:hover{
     border-width: 0;
 }
 
-.about__cards{
-    margin: 3rem 0 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:1.5rem;
-}
-
-.card.about__card{
-    text-align: center;
-}
-
-.about__card-icon {
-    font-size: 1.3rem;
-    color:black;
-    border-radius: var(--border-radius-3);
-    width: fit-content;
-    margin-inline:auto;
-    padding: 0.6rem;
-    display: flex;
-    align-items: center;
-    transition: var(--transition);
-}
-
-.card.about__card:hover{
-    border-color: #5cbdb9 ;
-}
-.card.about__card:hover .about__card-icon{
-    background-color: #5cbdb9;
-    color:white;
-}
-
-.card.about__card h5{
-    margin: 1rem 0;
-}
 
 .about__right p {
-    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
 }
 
 .about__right .btn{

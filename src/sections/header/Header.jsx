@@ -1,5 +1,5 @@
-import HeaderImg from '../../assets/HeaderImg.jpg'
 import data from './data'
+import HeaderImg from '../../assets/HeaderImg.jpg'
 import './header.css'
 
 
@@ -10,8 +10,8 @@ const Header = () => {
         <div className="header__profile">
           <img src={HeaderImg} alt="Header Portrait" />
         </div>
-        <h2>Leo Zhao <span className='header__emoji'>👋</span></h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor id, quasi, architecto a commodi aut quis sit laborum ratione illo ipsa accusantium asperiores iste aliquid non quam ea adipisci rerum?</p>
+        <h2>Hello World <span className='header__emoji'>👋</span></h2>
+        <p>My name is Leo Zhao, I'm a software developer based in Toronto, Ontario, Canada. I am passionate about building software that solves problems, big and small, in elegant and efficient ways.  </p>
         <div className='header__cta'>
           <a href="#contact" className='btn'>Let's Talk</a>
           <a href="#portfolio" className='btn'>My Work</a>
