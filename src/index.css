@@ -48,7 +48,7 @@ body {
 }
 
 section{
-    padding: 5rem 0;
+    padding: 4rem 0;
     transition: var(--transition);
 }
 
@@ -59,7 +59,7 @@ section > h2 {
 
 section > p {
     text-align: center;
-    margin: 1rem auto 4rem;
+    margin: 1rem auto 2rem;
     width: 40%;
 }
 

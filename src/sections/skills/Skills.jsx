@@ -2,6 +2,7 @@ import frontend from './frontend'
 import backend from './backend'
 import {IoCheckmarkCircleSharp} from 'react-icons/io5'
 import './skills.css'
+
 const Skills = () => {
   return (
     <section id="skills">

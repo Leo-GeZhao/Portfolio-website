@@ -2,8 +2,8 @@
     margin-top: 2rem;
 }
 .contact__container{
-    margin-top: 2rem;
-    width: 70%;
+    margin-top: 3rem;
+    /* width: 70%; */
     display: grid;
     grid-template-columns: 40% 48%;
     gap: 12%;
@@ -25,12 +25,17 @@
 
 .contact__option:hover{
     background: transparent;
-    border-color: #5cbdb9 ;
+    border-color: var(--green);
+    transform: translateY(-0.5rem);
 }
 
 .contact__option-icon{
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
+}
+
+.contact__option h5 {
+    margin-top: 0.4rem;
 }
 
 .contact__option a{
@@ -48,7 +53,6 @@ form{
 input, textarea{
     width: 100%;
     padding: 1.5rem;
-    border-bottom: 1px solid #5cbdb9;
+    border-bottom: 1px solid var(--green);
     resize: none;
-
 }

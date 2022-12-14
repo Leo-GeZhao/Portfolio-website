@@ -5,29 +5,28 @@
     gap:2rem;
 }
 
-.skills__container > div{
-    /* background-color: #FBFBFB; */
-    padding: 2.4rem 5rem;
+.skill__container{
+    padding: 0 1rem 2rem;
     border-radius: var(--border-radius-1);
     border: 1px solid transparent;
 }
 
 .skills__container > div:hover{
     background: transparent;
-    border-color: #5cbdb9;
+    border-color: var(--green);
     transition: var(--transition);
     transform: translateY(-0.5rem);
 }
 
 .skill__container > h3{
     text-align: center;
-    margin-bottom: 2rem;
+    padding: 2.4rem 5rem;
 }
 
 .skills__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    gap: 2rem;
 }
 
 .skill__detail{
@@ -37,6 +36,6 @@
 
 .skill__detail-icon{
     font-size: 1.3rem;
-    color: #5cbdb9;
+    color: var(--green);
 }
 
