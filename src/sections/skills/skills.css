@@ -24,6 +24,7 @@
 }
 
 .skills__content{
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -39,3 +40,19 @@
     color: var(--green);
 }
 
+@media screen and (max-width: 1024px) {
+    .skills__container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+   .skill__detail {
+    width: 66%;
+   }
+
+   .skills__content {
+    justify-items: end;
+   }
+}
+
+    
