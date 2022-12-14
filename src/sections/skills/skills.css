@@ -55,4 +55,10 @@
    }
 }
 
+@media screen and (max-width: 600px){
+    .skills__content{
+        justify-items: start;
+    }
+}
+
     

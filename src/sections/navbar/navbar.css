@@ -28,6 +28,7 @@ nav{
 }
 
 .nav__menu a:hover{
-    color: #5cbdb9;
+    color: var(--green);
     font-weight: 450; 
 }
+

@@ -33,3 +33,10 @@
 .portfolio-btn{
     margin-right: 1rem;
 }
+
+@media  screen and (max-width:600px){
+    .portfolio__cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
