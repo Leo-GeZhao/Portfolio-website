@@ -14,10 +14,11 @@ const Portfolio = () => {
                       <h5>{item.title}</h5>
                       <small>{item.desc}</small>
                       <div className='btn__group'>
-                        <button className='btn portfolio-btn'>Demo</button>
-                        <button className='btn portfolio-btn'>Github</button>
+                        <a href={item.demo} target="_blank"
+            rel="noopener noreferrer" className='btn portfolio-btn'>Demo</a>
+                        <a href={item.github} target="_blank"
+            rel="noopener noreferrer" className='btn portfolio-btn'>Github</a>
                       </div>
-                      
             </Card>)
           }
         </div>
