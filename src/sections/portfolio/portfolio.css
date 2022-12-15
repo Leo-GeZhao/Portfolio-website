@@ -3,7 +3,8 @@
 }
 
 .portfolio__card-img{
-    height: 14rem;
+    height: 18rem;
+    object-fit:contain;
     border-radius: var(--border-radius-1);
 }
 
