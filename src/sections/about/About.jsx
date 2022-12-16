@@ -15,6 +15,7 @@ const About = () => {
         <div className="about__right">
           <h3>About Me</h3>
           <p>After 3 years of working in Accouting and Finance, I have decided to change my occupation.</p>
+          <p>Talk about why pick up Software Engineering</p>
           <a href={CV} download className='btn'>Download CV <HiDownload/></a>
         </div>
       </div>
