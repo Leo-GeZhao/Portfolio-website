@@ -1,3 +1,7 @@
+#skills h2 {
+    margin-top: 2.6rem;
+}
+
 .skills__container{
     margin-top: 3rem;
     display: grid;
