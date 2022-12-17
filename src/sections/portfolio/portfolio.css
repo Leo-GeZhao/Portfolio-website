@@ -2,9 +2,11 @@
     margin: 3rem 0 2rem;
 }
 
+
 .portfolio__card-img{
     height: 18rem;
-    object-fit:contain;
+    object-fit:cover;
+    top: 50%;
     border-radius: var(--border-radius-1);
 }
 
