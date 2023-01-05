@@ -41,6 +41,7 @@ body {
     font-size: 0.9rem;
 }
 
+
 .container{
     width: var(--container-width-lg);
     margin-inline: auto;
