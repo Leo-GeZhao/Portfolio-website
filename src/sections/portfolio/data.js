@@ -7,9 +7,9 @@ import SneakerVault from "../../assets/projects/Sneaker-Vault.png";
 const data = [
   {
     img: HustleTo,
-    title: "HustleTo (In Progress)",
+    title: "HustleTo",
     desc: "Ecommerce website using Mern-Stack",
-    demo: "https://hustle-to.up.railway.app/",
+    demo: "https://hustle-to.herokuapp.com/",
     github: "https://github.com/Leo-GeZhao/Hustle-To",
   },
   {
