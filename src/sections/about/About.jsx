@@ -15,17 +15,19 @@ const About = () => {
         <div className="about__right">
           <h3>About Me</h3>
           <p>
-            After 3 years of working in Accouting and Finance, I have decided on
-            changing my career path.
+            After three years of working in Accounting and Finance, I made the
+            decision to change my career path.
           </p>
           <p>
-            The moment I discovered coding and programming, I finally found the
-            perfect career where I could enjoy the fulfillment of solving
-            problems and building applications to help myself and my surrounding
+            The moment I discovered coding and programming, I realized it was
+            the perfect career for me - one where I could find fulfillment in
+            solving problems and building applications to help others.
           </p>
           <p>
-            It has been a long way, but it's my passion for software development
-            gave me the courage to make this life changing decisions.
+            Though it was a long journey, my passion for software development
+            gave me the courage to make this life-changing decision. I am
+            excited to continue growing in this field and contributing to the
+            development of innovative solutions.
           </p>
           <a href={CV} download className="btn">
             Download CV <HiDownload />
