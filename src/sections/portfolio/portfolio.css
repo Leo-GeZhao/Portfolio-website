@@ -36,6 +36,23 @@
   margin-right: 1rem;
 }
 
+.stacks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 6px;
+}
+
+.stack {
+  margin-right: 2px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 600px) {
   .portfolio__cards {
     display: grid;

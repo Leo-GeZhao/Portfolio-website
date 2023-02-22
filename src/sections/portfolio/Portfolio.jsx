@@ -16,8 +16,14 @@ const Portfolio = () => {
               <img src={item.img} alt="" className="portfolio__card-img" />
             </div>
             <h5>{item.title}</h5>
-            <small>{item.subtitle}</small>
-            <small>{item.desc}</small>
+            {/* <small>{item.subtitle}</small> */}
+            <div className="stacks">
+              {item.stack.map((s) => (
+                <div className="stack">#{s}</div>
+              ))}
+            </div>
+
+            <div className="desc">{item.desc}</div>
             <div className="btn__group">
               <a
                 href={item.demo}
